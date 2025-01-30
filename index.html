@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>for talise</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Stage 1: Sanrio Gift Box -->
+  <div class="gift-box" onclick="openGift()">
+    <div class="bow"></div>
+    <div class="sparkles">✨</div>
+    <div class="label">Tap Me!</div>
+  </div>
+
+  <!-- Stage 2: Message -->
+  <div class="message">
+    <div class="sanrio-char"></div>
+    <h1>I overmiss you</h1>
+    <p>I'm sorry for hurting you, but I wanted to make this lil thing for you</p>
+    <p>So I hope you like it TALISE<3</p>
+    <button onclick="showProposal()">Click Me! 💜</button>
+  </div>
+
+  <!-- Stage 3: Proposal -->
+  <div class="proposal">
+    <div class="bouncing-heart">💜</div>
+    <h2>Will You Be My<br>Valentine?</h2>
+    <div class="buttons">
+      <button onclick="celebrate()">YES 😊</button>
+      <button class="no-button" onclick="sadNo()">NO 😔</button>
+    </div>
+  </div>
+
+  <!-- Stage 4: I Love You -->
+  <div class="love-stage">
+    <h2>I LOVE YOU TALISE</h2>
+    <h2>💜</h2>
+    <p>BE MY VALENTINE TY</p>
+  </div>
+
+  <audio id="song" src="song.mp3"></audio>
+  <script src="script.js"></script>
+</body>
+</html>
